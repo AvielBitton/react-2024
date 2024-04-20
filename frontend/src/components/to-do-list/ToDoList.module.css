@@ -1,0 +1,34 @@
+.todoList {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputField {
+  padding: 5px;
+  margin: 5px 0;
+  width: 200px;
+}
+
+.addButton {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+.itemList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.itemList li {
+  margin-bottom: 5px;
+}

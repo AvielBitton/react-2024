@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import UserTable from "./components/user-table/UserTable";
 import Counter from "./components/counter/Counter";
+import ToDoList from "./components/to-do-list/ToDoList";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -22,8 +23,8 @@ function App() {
 
   return (
     <div>
-      <Counter />
-      <Counter />
+      <ToDoList label={"To Do"} />
+      <ToDoList label={"Not To Do"} />
       <Counter />
       <button onClick={handleButton}>Show Data</button>
       {showData && <UserTable users={users} />}
