@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import UserTable from "./components/user-table/UserTable";
+import Counter from "./components/counter/Counter";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -21,6 +22,9 @@ function App() {
 
   return (
     <div>
+      <Counter />
+      <Counter />
+      <Counter />
       <button onClick={handleButton}>Show Data</button>
       {showData && <UserTable users={users} />}
     </div>
