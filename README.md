@@ -33,10 +33,8 @@ This is a simple starter project that combines Flask for the backend and React f
 
    - Create a React app:
      ```
-     mkdir frontend
+     npm init vite@latest frontend --template react
      cd frontend
-     npm init vite@latest my-react-app --template react
-     cd my-react-app
      ```
 
 2. **Install Axios**:
