@@ -8,7 +8,10 @@ This is a simple starter project that combines Flask for the backend and React f
 
    - Create a virtual environment:
      ```
+     mkdir backend
+     cd backend
      python -m venv env
+     
      source env/bin/activate  # Linux/Mac
      env\Scripts\activate  # Windows
      ```
@@ -21,7 +24,6 @@ This is a simple starter project that combines Flask for the backend and React f
    - Navigate to the `backend/` directory.
    - Run the Flask app:
      ```
-     mkdir backend
      cd backend
      touch app.py
      python app.py
